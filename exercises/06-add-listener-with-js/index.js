@@ -4,3 +4,13 @@ window.onload = function myLoadFunction() {
 };
 
 //the listener function here
+
+// window.woho = () => {
+// 	alert("wohooo")
+// }
+let button = document.getElementById("theGreen")
+button.addEventListener("click", woho);
+
+function woho() {
+	alert("wohoo")
+}
